@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Project/UI/MainStyle.uss?fileID=7433441132597879392&amp;guid=9801428a2ff78334fa27ea8fac063e8c&amp;type=3#MainStyle" />
+    <ui:VisualElement style="background-image: url(&apos;project://database/Assets/Project/UI/Textures/MainMenuBacground.png?fileID=2800000&amp;guid=2ebd3d4c3e3eb57499c6b204b428b7f2&amp;type=3#MainMenuBacground&apos;); width: auto; height: auto; justify-content: center; align-items: center; flex-shrink: 1; flex-direction: column; flex-grow: 0; -unity-background-scale-mode: stretch-to-fill;">
+        <ui:VisualElement name="Canvas" style="left: auto; justify-content: space-around; align-items: stretch; flex-shrink: 0; flex-grow: 1;">
+            <ui:VisualElement name="Buttons" style="flex-grow: 1; justify-content: center; align-items: center; flex-shrink: 0; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; color: rgb(75, 75, 75);">
+                <ui:Button text="New Game" display-tooltip-when-elided="true" name="NewGameButton" class="button" style="font-size: 100px; flex-grow: 0; flex-wrap: nowrap;" />
+                <ui:Button text="Settings" display-tooltip-when-elided="true" name="SettingsButton" class="button" style="font-size: 100px; flex-grow: 0; justify-content: flex-start; align-items: auto;" />
+                <ui:Button text="Select Player" display-tooltip-when-elided="true" name="PlayerSelectorButton" class="button" style="font-size: 100px; flex-grow: 0; flex-wrap: nowrap; white-space: normal; -unity-text-align: middle-center;" />
+                <ui:Button text="Exitt" display-tooltip-when-elided="true" name="ExitButton" class="button" style="font-size: 100px; flex-grow: 0; flex-wrap: nowrap;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
